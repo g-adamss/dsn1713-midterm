@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
-
-
-
-
+.navbar {
+  background-color: #2E483A !important;
+}
 
 .navbar-brand {
   color: #F6F3ED;
@@ -19,16 +18,23 @@ h1, h2, h3 {
 }
 
 #hero {
-  height: 800px;
   background-color: #E4E6DB;
   background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100vh;
 }
 
 #hero .d-flex {
-  height: 800px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero .d-flex{ 
+  padding-top: 7rem;
 }
 
 #cta {
@@ -40,6 +46,19 @@ h1, h2, h3 {
 
 #cta .d-flex {
   height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero .btn-primary{
+  background-color: #2E483A;
+  border-color: #2E483A;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  font-weight: 400;
+
 }
 
 section:not(#hero):not(#cta){
