@@ -6,6 +6,7 @@
   --bs-primary: #2E483A; 
   --bs-primary-rgb: 46, 72, 58; 
   --bs-light: #F8F9FA; 
+  --bs-body:#F6F3ED; 
 }
 .navbar {
   background-color: var(--bs-primary);
