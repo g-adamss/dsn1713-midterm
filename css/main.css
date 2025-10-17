@@ -8,13 +8,6 @@
   --bs-light: #F8F9FA; 
   --bs-body:#F6F3ED; 
 }
-.navbar {
-  background-color: var(--bs-primary);
-}
-
-.navbar-brand {
-  color: var(--bs-light);
-}
 
 body {
   font-family: "Sarala", sans-serif;
@@ -51,13 +44,6 @@ h1, h2, h3 {
   background-size: cover;
 }
 
-#cta .d-flex {
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 
 #hero .btn-primary{
   background-color: var(--bs-primary);
@@ -80,10 +66,6 @@ h1, h2, h3 {
   border-color: var(--bs-primary);
 }
 
-footer{
-  padding: 20px;
-  
-}
 
 section:not(#hero):not(#cta){
   padding: 60px 0;
