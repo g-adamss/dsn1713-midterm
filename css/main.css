@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+
+:root {
+  --bs-primary: #2E483A; 
+  --bs-primary-rgb: 46, 72, 58; 
+  --bs-light: #F8F9FA; 
+}
 .navbar {
-  background-color: #2E483A !important;
+  background-color: var(--bs-primary);
 }
 
 .navbar-brand {
-  color: #F6F3ED;
+  color: var(--bs-light);
 }
 
 body {
@@ -53,12 +59,23 @@ h1, h2, h3 {
 }
 
 #hero .btn-primary{
-  background-color: #2E483A;
-  border-color: #2E483A;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
   color: #fff;
   padding: 0.75rem 1rem;
   font-weight: 400;
 
+}
+
+
+#HIW .btn-primary{
+  background-color: #2E483A;
+  border-color: #2E483A;
+  color: #fff;
+}
+
+footer{
+  padding: 20px;
 }
 
 section:not(#hero):not(#cta){
